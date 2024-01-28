@@ -1,0 +1,2 @@
+!function(){var e="dark-theme",t="light-theme",c=document.querySelector("#theme-switch-toggle");function d(e,t){document.body.classList.add(t),document.body.classList.remove(e)}c.addEventListener("change",(function(c){c.currentTarget.checked?d(t,e):d(e,t);localStorage.setItem("theme",c.target.checked?e:t)}));var o=localStorage.getItem("theme");o&&(document.body.classList.add(o),c.checked=o===e)}();
+//# sourceMappingURL=index.a81c45c3.js.map
