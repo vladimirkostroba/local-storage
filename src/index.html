@@ -54,19 +54,24 @@
           <form action="" class="form">
             <label>
               Titel:
-              <input type="text" name="name" id="title" placeholder="Enter you title" required autofocus>
+              <input type="text" name="name" id="name" placeholder="Enter you name" required autofocus>
             </label>
   
             <label>
               Article:
-              <textarea name="article" id="article" cols="30" rows="10"></textarea>
+              <textarea class="js-textarea"
+               name="feedback"
+               id="feedback"
+               cols="30" 
+               rows="10"
+               placeholder="Enter you feedback"></textarea>
             </label>
 
             <button type="submit">submit</button>
           </form>
         </div>
 
-        <ul class="articles"></ul>
+        <ul class="feedbacks"></ul>
       </section>
 
    </main>
