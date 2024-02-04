@@ -10,7 +10,7 @@
   <body>
    <header>
       <div class="container">
-         <h2><h2>This task implements Saving data in local storage</h2></h2>
+         <h2 class="main-title">This task implements saving data in local storage</h2>
       </div>
    </header>
 
@@ -52,26 +52,21 @@
       <section>
         <div class="container">
           <form action="" class="form">
-            <label>
-              Titel:
-              <input type="text" name="name" id="name" placeholder="Enter you name" required autofocus>
-            </label>
-  
-            <label>
-              Article:
+              <input type="text" name="name" id="name" placeholder="Enter you name" required>
+           
               <textarea class="js-textarea"
                name="feedback"
                id="feedback"
                cols="30" 
                rows="10"
-               placeholder="Enter you feedback"></textarea>
-            </label>
+               placeholder="Feedback will be saved in local storage if the form is not submitted"
+               required></textarea>
 
-            <button type="submit">submit</button>
+            <button type="submit" class="button-13">Create feedback</button>
           </form>
-        </div>
 
-        <ul class="feedbacks"></ul>
+          <ul class="feedbacks"></ul>
+        </div>
       </section>
 
    </main>
